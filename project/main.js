@@ -1,8 +1,5 @@
 
-
-
-
-$("#main-header").text("univers")
+$("#main-header").text("universe")
 
   $("#hide").click(function(){
     $("#earthP").hide();
@@ -39,6 +36,11 @@ $("#4hide").click(function(){
     $("#blackP").show();
   });
 
-
+$("5hide").click(function(){
+  $("black6").hide();
+});
+$("5show").click(function(){
+  $("black6").show();
+})
 
 console.log("hi")
