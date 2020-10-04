@@ -39,6 +39,7 @@ $("#4hide").click(function(){
     $("#blackP").show();
   });
 
-
+var newline =$("<li></li>").text("A star is an astronomical object consisting of a luminous spheroid of plasma held together by its own gravity. The nearest star to Earth is the Sun.")
+$("#starsP").append(newline)
 
 console.log("hi")
