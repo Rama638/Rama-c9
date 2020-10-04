@@ -39,6 +39,23 @@ $("#4hide").click(function(){
     $("#blackP").show();
   });
 
-
+var newline =$("<li></li>").text("A star is an astronomical object consisting of a luminous spheroid of plasma held together by its own gravity. The nearest star to Earth is the Sun.")
+$("#starsP").append(newline)
 
 console.log("hi")
+
+
+var elements=["Earth","Sun","Moon","Black Hole","A Star"]
+var elements2 = ["Moon","Sun","A Star","Earth","Black Hole"]
+
+var button = $("<button></button>").text("Play").attr(id="button-play")
+$("#play").append(button)
+
+$("button-play").click(function(){
+		var mim = Math.floor(Math.random()+Math.random());
+	if (elements[mim] && elements2[mim]){
+		alert ("You win , it was " + elements[mim] + "&&" +elements2[mim]+ ".")
+	}else{
+		alert( "keep trying dude" + elements[mim]+ "&&" + elements2[mim]+ ".")
+	}		 
+}); 
