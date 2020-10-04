@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+body {
+text-align: center;
+	text-transform: uppercase;
+	color: grey;
+	background-color:rgba(0, 50, 0, 0.3)  
+}
+
