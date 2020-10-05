@@ -11,3 +11,6 @@ text-align: center;
 	background-color:rgba(0, 50, 0, 0.3)  
 }
 
+table, th, td {
+  border: 1px solid black;
+}
