@@ -4,10 +4,23 @@ h1 {
 	color: black;
 }
 
-body {
-text-align: center;
-	text-transform: uppercase;
-	color: grey;
-	background-color:rgba(0, 50, 0, 0.3)  
+.part1{
+ background-color:#FFC0CB ;
 }
 
+.part2 {
+ background-color:#FFE4C4 ;
+}
+
+.part3 {
+ background-color:#ADD8E6; 
+}
+
+.part4 {
+ background-color:#DDA0DD; 
+}
+
+.part5 {
+  background-color: #FFDEAD;
+ 	
+}
