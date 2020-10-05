@@ -103,7 +103,7 @@ var nearstStar = $.grep(stars,function(star,i){
 	return star.distance <= 5
 })
 
-var newpara= $("<p></p>").text("the nearest star to earth is" + "sun" +"PROXIMA CENTAURI" )
+var newpara= $("<p></p>").text("the nearest star to earth is" + "  "+ " [ sun"+" , " +"PROXIMA CENTAURI ]" )
 console.log(nearstStar)
 
 $("#stars").click(function(){
