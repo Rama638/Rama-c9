@@ -20,7 +20,20 @@ h1 {
  background-color:#DDA0DD; 
 }
 
+
 .part5 {
   background-color: #FFDEAD;
- 	
+ 	}
+
+table, th, td {
+  border: 1px solid black;
+
+}
+.table1{
+	text-align: center;
+}
+
+.game {
+	background-color: #FAEBD7;
+	text-align: center;
 }
